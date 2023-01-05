@@ -9,15 +9,28 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    var addConstraints = LoginScreenView()
+    var addConstraintsLogin = LoginScreenView()
+    
+    override func loadView() {
+        view = addConstraintsLogin
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view
+        navigationItem.hidesBackButton = true
+        addConstraintsLogin.signUpButton.addTarget(self, action: #selector(goSignUp), for: .touchUpInside)
+        addConstraintsLogin.loginButton.addTarget(self, action: #selector(goHomeScreen), for: .touchUpInside)
     }
     
-    override func loadView() {
-        view = addConstraints
+    @objc func goSignUp() {
+        let sign = SignUpViewController()
+        self.navigationController?.pushViewController(sign, animated: true)
+    }
+    
+    @objc func goHomeScreen() {
+        let home = HomeScreenViewController()
+        self.navigationController?.pushViewController(home, animated: true)
     }
 }
 

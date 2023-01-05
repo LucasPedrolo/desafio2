@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D492B682965A51C00F607AD /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D492B672965A51C00F607AD /* HomeScreenView.swift */; };
+		4D492B6A2965F32600F607AD /* BookingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D492B692965F32600F607AD /* BookingScreenView.swift */; };
 		4DA493E4296341DB0019023B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA493E3296341DB0019023B /* AppDelegate.swift */; };
 		4DA493E8296341DB0019023B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA493E7296341DB0019023B /* LoginViewController.swift */; };
 		4DA493ED296341DC0019023B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA493EC296341DC0019023B /* Assets.xcassets */; };
@@ -20,9 +22,12 @@
 		4DA4940B29634E340019023B /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4940A29634E340019023B /* Schedule.swift */; };
 		4DA4940D2963534F0019023B /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4940C2963534F0019023B /* LoginScreenView.swift */; };
 		4DA4940F29635E270019023B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4940E29635E270019023B /* UIView+Extension.swift */; };
+		4DA4941129645BF60019023B /* SignUpScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4941029645BF60019023B /* SignUpScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D492B672965A51C00F607AD /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		4D492B692965F32600F607AD /* BookingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingScreenView.swift; sourceTree = "<group>"; };
 		4DA493E0296341DB0019023B /* desafio2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafio2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA493E3296341DB0019023B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA493E7296341DB0019023B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		4DA4940A29634E340019023B /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		4DA4940C2963534F0019023B /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 		4DA4940E29635E270019023B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4DA4941029645BF60019023B /* SignUpScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				4DA4940C2963534F0019023B /* LoginScreenView.swift */,
+				4DA4941029645BF60019023B /* SignUpScreenView.swift */,
+				4D492B672965A51C00F607AD /* HomeScreenView.swift */,
+				4D492B692965F32600F607AD /* BookingScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -220,10 +229,13 @@
 				4DA4940D2963534F0019023B /* LoginScreenView.swift in Sources */,
 				4DA49405296346960019023B /* User.swift in Sources */,
 				4DA4940B29634E340019023B /* Schedule.swift in Sources */,
+				4DA4941129645BF60019023B /* SignUpScreenView.swift in Sources */,
 				4DA493E8296341DB0019023B /* LoginViewController.swift in Sources */,
 				4DA493E4296341DB0019023B /* AppDelegate.swift in Sources */,
 				4DA4940729634D840019023B /* BookingConfirmationViewController.swift in Sources */,
+				4D492B682965A51C00F607AD /* HomeScreenView.swift in Sources */,
 				4DA4940929634DA30019023B /* BookingListViewController.swift in Sources */,
+				4D492B6A2965F32600F607AD /* BookingScreenView.swift in Sources */,
 				4DA494032963465D0019023B /* BookingScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

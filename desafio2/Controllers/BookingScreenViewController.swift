@@ -8,10 +8,30 @@
 import UIKit
 
 class BookingScreenViewController: UIViewController {
+    
+    var addConstrainsBooking = BookingScreenView()
+    
+    override func loadView() {
+        view = addConstrainsBooking
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    func receiveTypeService(id: Int) {
+        switch id {
+        case 2:
+            addConstrainsBooking.addConstraintsStandard()
+            break
+        case 3:
+            addConstrainsBooking.addConstraintsMaximum()
+            break
+        default:
+            addConstrainsBooking.addConstraintsMinimum()
+        }
+    }
 }
+
