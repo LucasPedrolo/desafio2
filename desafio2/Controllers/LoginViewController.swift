@@ -10,6 +10,9 @@ import UIKit
 class LoginViewController: UIViewController {
 
     var addConstraintsLogin = LoginScreenView()
+    var validar = SignUpViewController()
+    
+    var user: User?
     
     override func loadView() {
         view = addConstraintsLogin
@@ -29,8 +32,20 @@ class LoginViewController: UIViewController {
     }
     
     @objc func goHomeScreen() {
-        let home = HomeScreenViewController()
-        self.navigationController?.pushViewController(home, animated: true)
+        validateLogin(email: user?.email ?? "", senha: user?.senha ?? "")
+    }
+    
+    func receiveDataLogin(user: User) {
+        self.user = user
+    }
+    
+    func validateLogin(email: String, senha: String) {
+        if email == addConstraintsLogin.userTxtField.text && senha == addConstraintsLogin.passwordTxtField.text {
+            let home = HomeScreenViewController()
+            self.navigationController?.pushViewController(home, animated: true)
+        } else {
+            print("Erro")
+        }
     }
 }
 

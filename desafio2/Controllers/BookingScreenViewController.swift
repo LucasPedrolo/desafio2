@@ -17,8 +17,6 @@ class BookingScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     func receiveTypeService(id: Int) {
@@ -34,4 +32,3 @@ class BookingScreenViewController: UIViewController {
         }
     }
 }
-

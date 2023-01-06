@@ -10,6 +10,7 @@ import UIKit
 class HomeScreenViewController: UIViewController {
 
     var addConstraintsHome = HomeScreenView()
+    var test = SignUpViewController()
     
     override func loadView() {
         view = addConstraintsHome
@@ -17,7 +18,6 @@ class HomeScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
         addConstraintsHome.minimumButton.addTarget(self, action: #selector(minimumButtonFunction), for: .touchUpInside)
         addConstraintsHome.standardButton.addTarget(self, action: #selector(standardButtonFunction), for: .touchUpInside)
