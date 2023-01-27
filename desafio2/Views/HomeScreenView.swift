@@ -17,7 +17,7 @@ class HomeScreenView: UIView {
         minimum.layer.cornerRadius = 20
         minimum.layer.borderWidth = 2
         minimum.layer.borderColor = UIColor.black.cgColor
-
+        
         return minimum
     }()
     
@@ -29,7 +29,7 @@ class HomeScreenView: UIView {
         standard.layer.cornerRadius = 20
         standard.layer.borderWidth = 2
         standard.layer.borderColor = UIColor.black.cgColor
-
+        
         return standard
     }()
     
@@ -41,7 +41,7 @@ class HomeScreenView: UIView {
         maximum.layer.cornerRadius = 20
         maximum.layer.borderWidth = 2
         maximum.layer.borderColor = UIColor.black.cgColor
-
+        
         return maximum
     }()
     

@@ -19,7 +19,7 @@ class SignUpScreenView: UIView {
         nome.clearButtonMode = UITextField.ViewMode.whileEditing
         nome.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         nome.autocapitalizationType = .none
-
+        
         return nome
     }()
     
@@ -33,7 +33,7 @@ class SignUpScreenView: UIView {
         cpf.clearButtonMode = UITextField.ViewMode.whileEditing
         cpf.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         cpf.autocapitalizationType = .none
-
+        
         return cpf
     }()
     
@@ -47,7 +47,7 @@ class SignUpScreenView: UIView {
         email.clearButtonMode = UITextField.ViewMode.whileEditing
         email.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         email.autocapitalizationType = .none
-
+        
         return email
     }()
     
@@ -61,7 +61,7 @@ class SignUpScreenView: UIView {
         senha.clearButtonMode = UITextField.ViewMode.whileEditing
         senha.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         senha.autocapitalizationType = .none
-
+        
         return senha
     }()
     
@@ -75,7 +75,7 @@ class SignUpScreenView: UIView {
         cep.clearButtonMode = UITextField.ViewMode.whileEditing
         cep.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         cep.autocapitalizationType = .none
-
+        
         return cep
     }()
     
@@ -89,7 +89,7 @@ class SignUpScreenView: UIView {
         rua.clearButtonMode = UITextField.ViewMode.whileEditing
         rua.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         rua.autocapitalizationType = .none
-
+        
         return rua
     }()
     
@@ -103,7 +103,7 @@ class SignUpScreenView: UIView {
         numero.clearButtonMode = UITextField.ViewMode.whileEditing
         numero.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         numero.autocapitalizationType = .none
-
+        
         return numero
     }()
     
@@ -117,7 +117,7 @@ class SignUpScreenView: UIView {
         complemento.clearButtonMode = UITextField.ViewMode.whileEditing
         complemento.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         complemento.autocapitalizationType = .none
-
+        
         return complemento
     }()
     
@@ -131,7 +131,7 @@ class SignUpScreenView: UIView {
         cidade.clearButtonMode = UITextField.ViewMode.whileEditing
         cidade.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         cidade.autocapitalizationType = .none
-
+        
         return cidade
     }()
     
@@ -145,7 +145,7 @@ class SignUpScreenView: UIView {
         estado.clearButtonMode = UITextField.ViewMode.whileEditing
         estado.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         estado.autocapitalizationType = .none
-
+        
         return estado
     }()
     

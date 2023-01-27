@@ -8,10 +8,9 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
     var addConstraintsLogin = LoginScreenView()
     var validar = SignUpViewController()
-    
     var user: User?
     
     override func loadView() {
@@ -48,4 +47,3 @@ class LoginViewController: UIViewController {
         }
     }
 }
-

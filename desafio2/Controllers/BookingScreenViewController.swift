@@ -14,7 +14,7 @@ class BookingScreenViewController: UIViewController {
     override func loadView() {
         view = addConstrainsBooking
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

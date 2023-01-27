@@ -8,7 +8,7 @@
 import UIKit
 
 class BookingConfirmationViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

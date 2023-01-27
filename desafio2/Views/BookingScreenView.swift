@@ -20,7 +20,7 @@ class BookingScreenView: UIView {
         rua.clearButtonMode = UITextField.ViewMode.whileEditing
         rua.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         rua.autocapitalizationType = .none
-
+        
         return rua
     }()
     
@@ -34,7 +34,7 @@ class BookingScreenView: UIView {
         numero.clearButtonMode = UITextField.ViewMode.whileEditing
         numero.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         numero.autocapitalizationType = .none
-
+        
         return numero
     }()
     
@@ -48,7 +48,7 @@ class BookingScreenView: UIView {
         complemento.clearButtonMode = UITextField.ViewMode.whileEditing
         complemento.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         complemento.autocapitalizationType = .none
-
+        
         return complemento
     }()
     
@@ -62,7 +62,7 @@ class BookingScreenView: UIView {
         date.clearButtonMode = UITextField.ViewMode.whileEditing
         date.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         date.autocapitalizationType = .none
-
+        
         return date
     }()
     
@@ -76,7 +76,7 @@ class BookingScreenView: UIView {
         hour.clearButtonMode = UITextField.ViewMode.whileEditing
         hour.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         hour.autocapitalizationType = .none
-
+        
         return hour
     }()
     
@@ -205,5 +205,4 @@ class BookingScreenView: UIView {
         
         servicesLabel.anchor(top: safeAreaLayoutGuide.topAnchor, leading: safeAreaLayoutGuide.leadingAnchor, bottom: nil, trailing: safeAreaLayoutGuide.trailingAnchor, padding: .init(top: 370, left: 20, bottom: 0, right: 20), size: .init(width: 140, height: 220))
     }
-    
 }

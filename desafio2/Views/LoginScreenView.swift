@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 class LoginScreenView: UIView {
     
     lazy var loginButton: UIButton = {
@@ -20,7 +19,7 @@ class LoginScreenView: UIView {
         login.layer.cornerRadius = 20
         login.layer.borderWidth = 2
         login.layer.borderColor = UIColor.black.cgColor
-
+        
         return login
     }()
     
@@ -46,7 +45,6 @@ class LoginScreenView: UIView {
         forgotPassword.titleLabel?.font = UIFont.systemFont(ofSize: 15)
         forgotPassword.setTitleColor(.black, for: .normal)
         forgotPassword.layer.masksToBounds = true
-//        forgotPassword.layer.borderWidth = 2
         
         return forgotPassword
     }()
@@ -61,7 +59,7 @@ class LoginScreenView: UIView {
         user.clearButtonMode = UITextField.ViewMode.whileEditing
         user.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         user.autocapitalizationType = .none
-
+        
         return user
     }()
     
@@ -76,7 +74,7 @@ class LoginScreenView: UIView {
         password.contentVerticalAlignment = UIControl.ContentVerticalAlignment.center
         password.autocapitalizationType = .none
         password.isSecureTextEntry = true
-
+        
         return password
     }()
     
@@ -104,7 +102,6 @@ class LoginScreenView: UIView {
         addSubview(passwordTxtField)
         addSubview(forgotPasswordButton)
         addSubview(logoImage)
-        
         
         logoImage.anchor(top: nil, leading: safeAreaLayoutGuide.leadingAnchor, bottom: safeAreaLayoutGuide.bottomAnchor, trailing: safeAreaLayoutGuide.trailingAnchor, padding: .init(top: 50, left: 100, bottom: 500, right:100), size: .init(width: 190, height: 200))
         

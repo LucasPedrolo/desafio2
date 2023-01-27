@@ -12,7 +12,7 @@ class SignUpViewController: UIViewController {
     var addConstraintsSignUp = SignUpScreenView()
     
     override func loadView() {
-       view = addConstraintsSignUp
+        view = addConstraintsSignUp
     }
     
     override func viewDidLoad() {
@@ -26,7 +26,7 @@ class SignUpViewController: UIViewController {
         
         return data
     }
-
+    
     @objc func goLogin() {
         let search = LoginViewController()
         search.receiveDataLogin(user: dataSignUp())
